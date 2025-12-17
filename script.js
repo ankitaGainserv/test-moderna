@@ -7,9 +7,9 @@
   var s = z.createElement("script");
   s.async = true;
   window.uzeraConfig = {
-    replayMode: "always",
+    // replayMode: "always",
     sdk_id: "I84N7SQKE7",
-    debug: true
+    debug: true,
   };
   s.src = "https://assets.gainserv.in/wrapper.dev.min.js";
   var t = z.getElementsByTagName("script")[0];

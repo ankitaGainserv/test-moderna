@@ -400,7 +400,8 @@
         .getElementById("contact-form")
         .addEventListener("submit", (e) => {
           e.preventDefault();
-          alert("Form submitted! (This is just a test)");
+          alert("This is an error");
+          throw Error("We threw an error");
         });
 
       // Button click handlers
