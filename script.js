@@ -6,6 +6,9 @@
   u["dm"] = u.location.hostname;
   var s = z.createElement("script");
   s.async = true;
+  window.uzeraConfig = {
+    replayMode: "always",
+  };
   s.src = "https://assets.gainserv.in/wrapper.dev.min.js";
   var t = z.getElementsByTagName("script")[0];
   t.parentNode.insertBefore(s, t);
