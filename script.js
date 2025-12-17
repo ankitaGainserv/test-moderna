@@ -8,6 +8,7 @@
   s.async = true;
   window.uzeraConfig = {
     replayMode: "always",
+    sdk_id: "I84N7SQKE7"
   };
   s.src = "https://assets.gainserv.in/wrapper.dev.min.js";
   var t = z.getElementsByTagName("script")[0];
